@@ -8,20 +8,14 @@ export default function Home() {
       <Container size="1">
         <Flex direction="column" align="center" gap="5">
           <Image
-            src="/wordmark.svg"
-            alt="LiveKit"
+            src="/logo-rk.png"
+            alt="Ruk-Com ltd logo"
             width="240"
             height="120"
             className="invert dark:invert-0 mt-8 mb-2"
           />
           <Text as="p">
-            Welcome to the LiveKit livestream demo app. You can join or start
-            your own stream. Hosted on{" "}
-            <Link href="https://livekit.io/cloud" target="_blank">
-              LiveKit Cloud
-            </Link>
-            . Bored of the current color theme? Switch it up by pressing{" "}
-            <Kbd>⌘&thinsp;C</Kbd> !
+            Welcome to Ruk-Com livestream demo with LiveKit app.
           </Text>
           <HomeActions />
           <Separator orientation="horizontal" size="4" className="my-2" />
@@ -34,7 +28,7 @@ export default function Home() {
               here
             </Link>
             .
-            {/* And also be sure to check out clone our{" "}
+            And also be sure to check out clone our{" "}
             <Link
               href="https://github.com/livekit-examples/swift-livestream"
               target="_blank"
@@ -42,7 +36,7 @@ export default function Home() {
               iOS
             </Link>{" "}
             and <Link href="https://github.com/livekit-examples/android-livestream" target="_blank">Android</Link> clients, which are compatible with
-            this web app! */}
+            this web app!
           </Text>
         </Flex>
       </Container>
